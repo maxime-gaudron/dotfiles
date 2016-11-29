@@ -46,6 +46,9 @@ let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+" Rust auto completion
+let g:ycm_rust_src_path="/home//Developer/rust-master/src/"
+
 " temporary files
 set backupdir=/tmp
 set directory=/tmp
